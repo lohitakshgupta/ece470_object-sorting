@@ -108,3 +108,14 @@ http://www.coppeliarobotics.com/helpFiles/index.html
 In particular, here are the commands available to you in the python remote API:
 
 http://www.coppeliarobotics.com/helpFiles/en/remoteApiFunctionsPython.htm
+
+##Demonstrate Forward Kinematics: Checkpoint 2
+
+1) Drew a schematic of the robot. We used the one in lab manual.
+
+2) Derived the forward kinematics of your robot, from the schematic.
+
+3) Wrote code that implements the forward kinematics (i.e., a function that takes joint variables as input and returns the pose of the tool frame as output).
+
+4) Wrote code that (1) moves the robot in the simulator to a given set of joint variables, and (2) drew a frame in the simulator at the pose that is predicted by our implementation of the forward kinematics.
+
