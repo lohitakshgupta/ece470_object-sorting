@@ -109,7 +109,7 @@ In particular, here are the commands available to you in the python remote API:
 
 http://www.coppeliarobotics.com/helpFiles/en/remoteApiFunctionsPython.htm
 
-##Demonstrate Forward Kinematics: Checkpoint 2
+# Demonstrating Forward Kinematics: Checkpoint 2
 
 1) Drew a schematic of the robot. We used the one in lab manual.
 
