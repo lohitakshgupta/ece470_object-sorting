@@ -1,4 +1,4 @@
-# ece470_object-sorting
+# ECE 470 Object Sorting
 ECE 470 Final Project: Object Sorting based on Size
 
 We will be implementing a simple object sorting based on the size of objects. Limitation: The objects are expected to be regular in shape.
