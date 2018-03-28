@@ -119,3 +119,10 @@ http://www.coppeliarobotics.com/helpFiles/en/remoteApiFunctionsPython.htm
 
 4) Wrote code that (1) moves the robot in the simulator to a given set of joint variables, and (2) drew a frame in the simulator at the pose that is predicted by our implementation of the forward kinematics.
 
+# Demonstrating Inverse Kinematics: Checkpoint 3
+
+1) Wrote a code that implements numerical inverse kinematics (i.e., a function that takes a goal pose as input and returns either a set of joint variables that achieve the goal pose or an indication - e.g., "None" in python or "[]" in matlab - that the goal pose is not reachable).
+
+2) Wrote a code that (1) generates a goal pose either at random or in response to some kind of user input, (2) draws a frame in the simulator at the goal pose, (3) either moves the robot in the simulator to a set of joint variables that achieves the goal pose or indicates in some way that the goal pose is not reachable.
+
+3) Showed the robot achieving several different goal poses - selected either at random or in response to user input - and highlighting agreement between the goal pose and the actual pose of the tool frame in each case. Your video should also show the result of asking the robot to achieve at least one goal pose that is not reachable.
