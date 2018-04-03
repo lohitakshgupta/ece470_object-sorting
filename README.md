@@ -126,3 +126,9 @@ http://www.coppeliarobotics.com/helpFiles/en/remoteApiFunctionsPython.htm
 2) Wrote a code that (1) generates a goal pose either at random or in response to some kind of user input, (2) draws a frame in the simulator at the goal pose, (3) either moves the robot in the simulator to a set of joint variables that achieves the goal pose or indicates in some way that the goal pose is not reachable.
 
 3) Showed the robot achieving several different goal poses - selected either at random or in response to user input - and highlighting agreement between the goal pose and the actual pose of the tool frame in each case. Your video should also show the result of asking the robot to achieve at least one goal pose that is not reachable.
+
+# Demonstrating Collision Detection: Checkpoint 4
+
+1) Wrote code that decides if a given set of joint variables (i.e., a configuration) places the robot in collision, either with itself or with something else in the environment. Note that one type of "self-collision" is violating joint limits (i.e., bounds on the value of a joint variable).
+
+2) Showed the robot in many different configurations and that indicates, in some way, which of these configurations place the robot in collision. Your video must show at least a few configurations each that result in no collision, in self-collision, and in collision with other things.
