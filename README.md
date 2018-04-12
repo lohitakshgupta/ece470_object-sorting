@@ -132,3 +132,9 @@ http://www.coppeliarobotics.com/helpFiles/en/remoteApiFunctionsPython.htm
 1) Wrote code that decides if a given set of joint variables (i.e., a configuration) places the robot in collision, either with itself or with something else in the environment. Note that one type of "self-collision" is violating joint limits (i.e., bounds on the value of a joint variable).
 
 2) Showed the robot in many different configurations and that indicates, in some way, which of these configurations place the robot in collision. Your video must show at least a few configurations each that result in no collision, in self-collision, and in collision with other things.
+
+# Demonstrating Motion Planning: Checkpoint 5
+
+1) Write code that either returns a collision-free path between given start and goal configurations (i.e., a sequence of straight-line segments that is described by a list of nodes q1,…,qn where q1=θstart and qn=θgoal) or that returns failure if such a path could not be found. Your code must consider both self-collision and collision with obstacles.
+
+2) Showed the robot moving along at least 3 different collision-free paths. Each path must be non-trivial, in the sense that it (1) consists of more than one straight-line segment, and (2) could not have been replaced by a path consisting of only one straight-line segment from θstart to θgoal. In other words, your video should demonstrate that your path planner is really working, that it really does allow your robot to avoid both self-collision and obstacles.
