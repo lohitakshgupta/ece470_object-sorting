@@ -138,3 +138,17 @@ http://www.coppeliarobotics.com/helpFiles/en/remoteApiFunctionsPython.htm
 1) Write code that either returns a collision-free path between given start and goal configurations (i.e., a sequence of straight-line segments that is described by a list of nodes q1,…,qn where q1=θstart and qn=θgoal) or that returns failure if such a path could not be found. Your code must consider both self-collision and collision with obstacles.
 
 2) Showed the robot moving along at least 3 different collision-free paths. Each path must be non-trivial, in the sense that it (1) consists of more than one straight-line segment, and (2) could not have been replaced by a path consisting of only one straight-line segment from θstart to θgoal. In other words, your video should demonstrate that your path planner is really working, that it really does allow your robot to avoid both self-collision and obstacles.
+
+# Final Project: Jarvis - Object Manipulation for Industrial and Household Applications
+
+We are going to use V-REP simulator to show how our robotic arm, UR-3, will suck a cube and a glass full of balls from their initial pose in a table. The first one will be reallocated in a conveyor belt and the balls will be dropped in a basin. Concepts such as Forward Kinematics, Inverse Kinematics and Motion Planning will be used in order to implement the sorting of objects. 
+
+“Created a dynamic simulation (i.e., a simulation of real physics) in which at least one robot - with at least one arm that has at least six joints - moves at least one object (e.g., by pushing or grasping) from a random initial pose to a given final pose.”
+	Going beyond that, we decided to attach a suction gripper to our robot and pick two objects - a cube and a cup full of balls - from their initial position and, in the case of the cube, release it in a conveyer belt. For the glass, the robot takes it and moves until it is located above the basin. Then, it rotates the last joint so all the balls fall from the glass. After that, the robot leaves the empty glass in its initial place. 
+
+The final goal of our project is to show the capability of the robot to perform tasks both in industrial and household taks, such as reallocation and manipulation of objects and automated search of a path without collision with itself and the environment.
+
+For this project, we have used the following items: 
+ Robot: UR-3
+ Simulator: V-REP
+ Programming Language: Python
