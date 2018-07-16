@@ -139,7 +139,7 @@ http://www.coppeliarobotics.com/helpFiles/en/remoteApiFunctionsPython.htm
 
 2) Showed the robot moving along at least 3 different collision-free paths. Each path must be non-trivial, in the sense that it (1) consists of more than one straight-line segment, and (2) could not have been replaced by a path consisting of only one straight-line segment from θstart to θgoal. In other words, your video should demonstrate that your path planner is really working, that it really does allow your robot to avoid both self-collision and obstacles.
 
-# Final Project: Jarvis - Object Manipulation for Industrial and Household Applications
+# Final Project: Jarvis - Object Handling for Industrial and Household Applications
 
 We are going to use V-REP simulator to show how our robotic arm, UR-3, will suck a cube and a glass full of balls from their initial pose in a table. The first one will be reallocated in a conveyor belt and the balls will be dropped in a basin. Concepts such as Forward Kinematics, Inverse Kinematics and Motion Planning will be used in order to implement the sorting of objects. 
 
