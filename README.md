@@ -152,3 +152,7 @@ For this project, we have used the following items:
  Robot: UR-3
  Simulator: V-REP
  Programming Language: Python
+ 
+ # Final Project Report
+ Link: https://github.com/lohitakshgupta/ece470_object-sorting/blob/master/Final%20Project%20Report.pdf
+ We followed IEEE standards for making the Final Project Report
